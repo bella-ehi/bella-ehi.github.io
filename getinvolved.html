@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>HerRenaissance By Isabella E Foundation</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- link the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- link the webpage's JavaScript file -->
+    <script src="/script.js" defer></script>
+
+  </head>
+
+  <body>
+  <!--Navigation barr-->
+    <nav>
+      <a href="#" class="logo">
+        <img src="assets/figurelogo.svg" alt="Her Renaissance Logo" class="logo-img">
+        <img src="assets/textlogo.svg" alt="Her Renaissance by Isabella Foundation" class="logo-text">
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Who We Are</a>
+        <a href="blog.html">Blog</a>
+        <a href="staff.html">Staff</a>
+        <a href="getinvolved.html">Get Involved</a>
+        <a href="donate.html" class="donate-btn">DONATE ❤︎</a>
+      </div>
+    </nav>
+    
+  <main>
+  <!--Get involved form-->
+    <section class="get-involved-section">
+      <h2>Get Involved</h2>
+
+      <form id="getInvolvedForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Why do you want to get involved?</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="thankYouMessage" class="hidden">
+         Thank you for reaching out! We’ll be in touch soon. 
+      </div>
+    </section>
+    </main>
+   
+  <!--Footer-->
+    
+  <footer class="footer-banner">
+        <div class="footer-container">
+          <div class="footer-left">
+            <div class="footer-logo">
+              <img src="assets/logooo.svg" alt="Her Renaissance Logo">
+            </div>
+            <div class="footer-motto">
+              <p>Empowering young women and underprivileged families through education, technology, and community.</p>
+            </div>
+          </div>
+
+         <!--Quick links-->
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="staff.html">Our Team</a></li>
+              <li><a href="getinvolved.html">Get Involved</a></li>
+              <li><a href="donate.html">Donate</a></li>
+            </ul>
+          </div>
+
+        <!--Mailing list-->
+          <div class="footer-newsletter">
+            <h3>Join Our Mailing List</h3>
+            <form id="mailingForm">
+              <input type="email" name="email" placeholder="Your email address" required>
+              <button type="submit">Subscribe</button>
+            </form>
+            <p id="mailingMessage" class="fade-message">
+              Thank you for subscribing! ❤︎
+            </p>
+          </div>
+
+        </div>
+      </footer>
+
+</body>
+</html>
